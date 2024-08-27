@@ -25,6 +25,11 @@ main {
     
 }
 
+::-webkit-scrollbar {
+
+    display: none; 
+}
+
 #telefone {
     height: 500px;
     width: 500px;
@@ -66,3 +71,4 @@ main {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.733);
     transition: transform .3, border 1s;
 }
+
